@@ -37,7 +37,7 @@ Add Poetry to your PATH (if not automatically added):
 
 4. **Run the backend server**:
     ```sh
-    poetry run uvicorn app.main:app --reload
+    poetry run uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
     ```
 
 5. **Update configuration**:
